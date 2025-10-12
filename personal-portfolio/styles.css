@@ -1,0 +1,121 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --title: #000000;
+  --primary-color: #122124;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+nav ul {
+  display: flex;
+  gap: 8px;
+  flex-direction: row;
+}
+
+.title {
+  text-align: center;
+}
+
+.home {
+  text-align: center;
+}
+
+.home header {
+  display: flex;
+  padding: 0px 24px;
+  align-items: center;
+  flex-direction: column;
+
+  @media (min-width: 1000px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.home nav {
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects {
+  text-align: center;
+  width: 100%;
+}
+
+.work-experience {
+  width: 100%;
+}
+
+.education {
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.projects ul {
+  list-style: none;
+}
+
+.technichal {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 1000px) {
+    flex-direction: row;
+  }
+}
+
+.technichal .projects {
+  border: 0.1px solid #000000;
+}
+
+.technichal .projects ul li {
+  border-bottom: 0.1px solid #000000;
+}
+
+.technichal .work-experience {
+  border-top: 0.1px solid #000000;
+  border-bottom: 0.1px solid #000000;
+}
+
+.technichal .work-experience article:first-of-type {
+  border-bottom: 0.1px solid #000000;
+}
+
+.technichal .work-experience .content {
+  padding: 0px 10px;
+}
+
+.education {
+  border: 0.1px solid #000000;
+}
+
+footer div {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+
+  @media (min-width: 1000px) {
+    flex-direction: row;
+    padding-bottom: 100px;
+  }
+
+  article {
+    padding: 8px;
+    border: 0.1px solid #000000;
+    border-radius: 16px;
+  }
+}
+
+.footer-title {
+  padding-left: 10px;
+}
