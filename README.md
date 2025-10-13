@@ -1,15 +1,49 @@
-# 🛣️ roadmap.sh Projects — Max Dickinson
+# 🛣 roadmap.sh Projects — Max Dickinson
 
-Este repositório reúne alguns dos meus projetos web, parte da minha jornada de aprendizado em HTML, CSS e desenvolvimento front-end.
+Este repositório reúne os projetos que desenvolvi seguindo os desafios do [roadmap.sh](https://roadmap.sh/), além de conter meus próprios aprimoramentos e variações.
+
+---
+
+## 📄 [Single Page CV](https://roadmap.sh/projects/single-page-cv)
+
+Um projeto que consiste em criar um currículo de página única utilizando apenas HTML e CSS.  
+📂 Repositório: [maxdickinsondev/roadmapsh/single-page-cv](https://github.com/maxdickinsondev/roadmapsh/tree/master/single-page-cv)
 
 ---
 
-## Projetos
+## 🌐 [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
 
-| Projeto | Descrição | Link |
-|---|---|---|
-| Single Page CV | Uma página única para exibir meu currículo digital | https://github.com/maxdickinsondev/roadmapsh/tree/master/single-page-cv |
-| Basic HTML Website | Website básico feito com HTML e CSS | https://github.com/maxdickinsondev/roadmapsh/tree/master/basic-html-website |
-| Personal Portfolio | Portfólio pessoal com apresentação de projetos e habilidades | https://github.com/maxdickinsondev/roadmapsh/tree/master/personal-portfolio |
+Um site básico construído com HTML e CSS, com foco em estrutura semântica e boas práticas.  
+📂 Repositório: [maxdickinsondev/roadmapsh/basic-html-website](https://github.com/maxdickinsondev/roadmapsh/tree/master/basic-html-website)
 
 ---
+
+## 💼 [Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
+
+Portfólio pessoal criado para apresentar projetos, habilidades e experiências.  
+📂 Repositório: [maxdickinsondev/roadmapsh/personal-portfolio](https://github.com/maxdickinsondev/roadmapsh/tree/master/personal-portfolio)
+
+---
+
+## 🚀 Projeto online
+
+Veja meu portfólio publicado:  
+👉 [cv.maxdickinson.com](https://cv.maxdickinson.com)
+
+---
+
+## ⚙️ Tecnologias utilizadas
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- Git & GitHub  
+- Netlify (para deploy)
+
+---
+
+## 🧭 Como executar localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/maxdickinsondev/roadmapsh.git
