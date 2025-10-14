@@ -29,7 +29,7 @@ Portfólio pessoal criado para apresentar projetos, habilidades e experiências.
 
 Veja meu portfólio publicado:  
 👉 [cv.maxdickinson.com](https://cv.maxdickinson.com)
-
+👉 [portfolio.maxdickinson.com](https://portfolio.maxdickinson.com)
 ---
 
 ## ⚙️ Tecnologias utilizadas
