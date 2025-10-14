@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Noto+Color+Emoji&display=swap"
+      rel="stylesheet"
+    />
     <title>Max Dickinson - Personal Portfolio</title>
     <!-- SEO Meta Tags -->
     <meta
@@ -30,6 +36,7 @@
           <div>Max Dickinson</div>
           <nav>
             <ul>
+              <button id="theme-toggle">Dark Mode</button>
               <li>Home /</li>
               <li>Projects /</li>
               <li>Articles /</li>
@@ -111,11 +118,11 @@
         </section>
       </div>
 
-      <footer>
+      <footer class="footer">
         <h2 class="footer-title">Reviews from my Teachers</h2>
 
-        <div>
-          <article>
+        <div class="footer-container">
+          <article class="footer-content">
             <h3>
               John doe was a brilliant student; always stood out with his
               assignments;
@@ -124,7 +131,7 @@
             <summary>Assistant Professor</summary>
           </article>
 
-          <article>
+          <article class="footer-content">
             <h3>
               John doe was a brilliant student; always stood out with his
               assignments;
@@ -133,7 +140,7 @@
             <summary>Assistant Professor</summary>
           </article>
 
-          <article>
+          <article class="footer-content">
             <h3>
               John doe was a brilliant student; always stood out with his
               assignments;
@@ -143,8 +150,10 @@
           </article>
         </div>
 
-        <h2 class="title">&copy; all rights reserverd 2025</h2>
+        <h2 id="copyrights" class="title">&copy; all rights reserved</h2>
       </footer>
     </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
