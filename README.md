@@ -32,6 +32,13 @@ Um componente de changelog para registrar mudanças no software.
 
 ---
 
+## 💼 [Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)
+
+Um componente de changelog para registrar mudanças no software.  
+📂 Repositório: [maxdickinsondev/roadmapsh/testimonial-cards](https://github.com/maxdickinsondev/roadmapsh/tree/master/testimonial-cards)
+
+---
+
 ## 🚀 Projeto online
 
 Veja meu portfólio publicado:  
