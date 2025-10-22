@@ -25,6 +25,13 @@ Portfólio pessoal criado para apresentar projetos, habilidades e experiências.
 
 ---
 
+## 💼 [Changelog Component](https://roadmap.sh/projects/changelog-component)
+
+Um componente de changelog para registrar mudanças no software.  
+📂 Repositório: [maxdickinsondev/roadmapsh/changelog-component](https://github.com/maxdickinsondev/roadmapsh/tree/master/changelog-component)
+
+---
+
 ## 🚀 Projeto online
 
 Veja meu portfólio publicado:  
