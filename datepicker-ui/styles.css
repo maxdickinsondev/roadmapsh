@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend", sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:root {
+  --bg-black: #000;
+
+  --size-xs: 4px;
+  --size-sm: 8px;
+  --size-md: 16px;
+  --size-lg: 24px;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.datepicker {
+  display: flex;
+  width: max-content;
+  flex-direction: column;
+  gap: var(--size-xs);
+}
+
+.calendar {
+  padding: var(--size-xs);
+  border: none;
+  cursor: pointer;
+  border-left: 1px solid var(--bg-black);
+}
+
+.input {
+  padding: var(--size-sm) var(--size-md);
+}
+
+.input-datepicker {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border: 1px solid var(--bg-black);
+}
+
+.input-months {
+  padding: var(--size-xs) var(--size-sm);
+  border: 1px solid var(--bg-black);
+  gap: var(--size-sm);
+}
+
+.month-year {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: var(--size-sm);
+}
+
+.month-year span {
+  margin: 0px var(--size-lg);
+}
+
+.week-days {
+  display: flex;
+  border-bottom: 1px solid var(--bg-black);
+  justify-content: space-evenly;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  background-color: var(--bg-black);
+  gap: 1px;
+}
+
+.day {
+  padding: var(--size-sm);
+  background-color: white;
+}
