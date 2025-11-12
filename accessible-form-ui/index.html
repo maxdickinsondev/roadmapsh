@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Noto+Color+Emoji&display=swap"
+      rel="stylesheet"
+    />
+    <title>Accessible Form UI</title>
+  </head>
+  <body>
+    <main>
+      <form>
+        <div class="left-side">
+          <div class="form-item">
+            <label for="name">Full Name</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="What should we call you?"
+              required
+              aria-required="true"
+            />
+          </div>
+
+          <div class="form-item">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              class="input-error"
+              placeholder="john@doe.com"
+              aria-describedby="email-error"
+              aria-invalid="true"
+              required
+              aria-required="true"
+            />
+            <p id="email-error" class="helper-text" role="alert">
+              Email is already taken
+            </p>
+          </div>
+
+          <div class="form-item">
+            <label for="password">Enter Password</label>
+            <div class="password-wrapper">
+              <input
+                id="password"
+                name="password"
+                type="password"
+                placeholder="xxxxxxxx"
+                required
+                aria-required="true"
+              />
+              <button class="icon-button">
+                <i class="fa-solid fa-eye"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="form-item">
+            <label for="confirm-password">Confirm Password</label>
+            <input
+              id="confirm-password"
+              name="confirm-password"
+              type="password"
+              placeholder="xxxxxxxx"
+              required
+              aria-required="true"
+            />
+          </div>
+
+          <button type="submit">Update Profile</button>
+        </div>
+
+        <div class="right-side">
+          <div
+            class="circular"
+            role="img"
+            aria-label="Profile completeness is 65%"
+          >
+            <div
+              class="progress-bar"
+              aria-valuenow="65"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              role="progressbar"
+            >
+              65%
+            </div>
+          </div>
+
+          <h2>Profile Completeness</h2>
+
+          <div class="tasks-card">
+            <ul>
+              <li class="finished">Create Account</li>
+              <li class="finished">Update Roadmap Progress</li>
+              <li class="finished">Setup Public Profile</li>
+              <li>Complete your first project</li>
+              <li>Invite your Friends</li>
+            </ul>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
